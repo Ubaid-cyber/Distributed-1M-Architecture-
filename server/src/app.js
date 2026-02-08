@@ -1,7 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const cors = require('cors');
-const connectDB = require('./config/db'); // Database file import ki
+const connectDB = require('./config/db'); // Database file import
 
 // 1. Config Load 
 dotenv.config();
